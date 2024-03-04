@@ -11,9 +11,8 @@ hour.describe(include="all")
 
 # Membuat Dashboard
 st.header('✨Bike Sharing Dataset Dashboard by Amira Salma✨')
-from PIL import Image
-gambar = Image.open('/Users/LENOVO/Downloads/dashboard/bike.png')
-st.image(gambar, use_column_width=True)
+st.image('https://www.lazone.id/storage/news/April%202021/20%20April%202021/3.%205%20Rekomendasi%20Sepeda%20Jepang%20dengan%20Desain%20Keren/sepeda%20jepang%20coverOKE.jpg', 
+          use_column_width=True)
 
 # Pertanyaan 1
 st.subheader('Rata-rata Jumlah Sepeda Disewakan Berdasarkan Kecepatan Angin')
